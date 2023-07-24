@@ -42,7 +42,7 @@ function api() {
     }
 
     fetchData();
-  }, []);
+  }, [apiUrl]);
 
   const createTodo = () => {
     async function createTodoFromApi() {
@@ -278,4 +278,3 @@ function api() {
 }
 
 export default api;
-// git@github.com:Immarculate/To-do-List.git
